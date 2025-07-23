@@ -1,12 +1,52 @@
-# React + Vite
+# React Router Demo (Vite + TailwindCSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎯 This project is part of my **React Journey – Day 10**.  
+It demonstrates routing with `react-router-dom` and clean, responsive styling using **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## 🚀 What I Built
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- A reusable `Layout` component with a shared nav
+- Nested routing using `<Outlet />` from `react-router-dom`
+- Tailwind setup for styling without custom CSS
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/
+├── components/
+│ └── Layout.jsx
+├── pages/
+│ ├── Home.jsx
+│ ├── About.jsx
+│ └── Contact.jsx
+├── App.jsx
+└── main.jsx
+
+
+## 🛠️ Setup Instructions
+
+1. Clone the repo:
+   
+   git clone https://github.com/YOUR_USERNAME/react-router-demo-vite.git
+   cd react-router-demo-vite
+
+    Install dependencies:
+
+npm install
+
+Start the dev server:
+
+    npm run dev
+
+💡 What I Learned
+
+    Tailwind CSS setup in Vite
+
+    Creating a shared layout with <Outlet />
+
+    Nested routes with react-router-dom
+
+    Styling in JSX with utility-first classes
+
+
+
+Made with 💙 by Blessed Ogechukwu
