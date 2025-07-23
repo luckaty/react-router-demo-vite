@@ -26,17 +26,17 @@ src/
 
 1. Clone the repo:
    
-   git clone https://github.com/YOUR_USERNAME/react-router-demo-vite.git
+   git clone https://github.com/luckaty/react-router-demo-vite.git
    
    cd react-router-demo-vite
 
     Install dependencies:
 
-npm install
-
-Start the dev server:
-
-    npm run dev
+      npm install
+      
+    Start the dev server:
+      
+      npm run dev
 
 💡 What I Learned
 
