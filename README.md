@@ -27,6 +27,7 @@ src/
 1. Clone the repo:
    
    git clone https://github.com/YOUR_USERNAME/react-router-demo-vite.git
+   
    cd react-router-demo-vite
 
     Install dependencies:
